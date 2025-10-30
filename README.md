@@ -1,4 +1,4 @@
-# Lumos DevKit ⚡
+# Lumos DevKit ☀️
 
 Scaffold ready-to-run Lumos projects with one command.
 
