@@ -1,0 +1,20 @@
+{
+  "name": "lumos-devkit",
+  "version": "0.1.0",
+  "description": "Developer kit for Lumos — scaffold Next.js, Express, or Static projects with x402 paywall integration.",
+  "license": "MIT",
+  "bin": {
+    "lumos-devkit": "./bin/lumos-devkit.js",
+    "create-lumos-app": "./bin/lumos-devkit.js"
+  },
+  "scripts": {
+    "build": "tsc && node scripts/postbuild.js || true",
+    "dev": "ts-node src/cli.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "@types/node": "^20.11.30",
+    "ts-node": "^10.9.2"
+  }
+}
